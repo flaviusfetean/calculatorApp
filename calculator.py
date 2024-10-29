@@ -1,4 +1,4 @@
-from operations import add, subtract
+from operations import add, subtract, divide
 
 print("Simple Calculator")
 a = int(input("Enter first number: "))
@@ -10,5 +10,7 @@ if op == '+':
     print(add(a, b))
 elif op == '-':
     print(subtract(a, b))
+elif op == '/':
+    print(divide(a, b))
 else:
     print("Invalid operation")
